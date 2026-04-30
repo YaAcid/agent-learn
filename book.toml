@@ -1,0 +1,28 @@
+[book]
+title = "MCP 入门实战：从原理到 GitHub Pages 部署"
+description = "基于真实聊天记录整理的 Model Context Protocol 系统学习笔记，包含原理讲解、代码实战、Inspector 深度解析和网络通信机制"
+authors = ["agent"]
+language = "zh-CN"
+edition = "2025"
+
+[build]
+create-missing = false
+
+[output.html]
+additional-css = []
+additional-js = []
+mathjax-support = false
+katex-css = false
+katex-js = false
+no-section-label = false
+
+[output.html.search]
+enable = true
+limit-results = 30
+teaser-length = 50
+
+[output.html.print]
+enable = true
+
+[preprocessor.toc]
+maximum-level = 3
